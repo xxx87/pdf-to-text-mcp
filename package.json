@@ -36,16 +36,16 @@
   ],
   "author": {
     "name": "Ilya Isaev (xxx87)",
-    "url": "https://github.com/your-username/pdf-to-text-mcp-server/contributors"
+    "url": "https://github.com/xxx87/pdf-to-text-mcp/contributors"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/pdf-to-text-mcp-server.git"
+    "url": "https://github.com/xxx87/pdf-to-text-mcp.git"
   },
-  "homepage": "https://github.com/your-username/pdf-to-text-mcp-server#readme",
+  "homepage": "https://github.com/xxx87/pdf-to-text-mcp#readme",
   "bugs": {
-    "url": "https://github.com/your-username/pdf-to-text-mcp-server/issues"
+    "url": "https://github.com/xxx87/pdf-to-text-mcp/issues"
   },
   "engines": {
     "node": ">=18.0.0",

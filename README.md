@@ -11,7 +11,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/pdf-to-text-mcp-server.git
+git clone https://github.com/xxx87/pdf-to-text-mcp.git
 cd pdf-to-text-mcp-server
 
 # Install dependencies
@@ -58,7 +58,7 @@ yarn test
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/your-username/pdf-to-text-mcp-server.git
+   git clone https://github.com/xxx87/pdf-to-text-mcp.git
    cd pdf-to-text-mcp-server
    ```
 
