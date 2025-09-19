@@ -1,0 +1,67 @@
+{
+  "name": "pdf-to-text-mcp-server",
+  "version": "1.0.0",
+  "description": "A Model Context Protocol (MCP) server for converting PDF files to text, designed for Cursor IDE integration",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "pdf-to-text-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "test": "node test-server.js",
+    "lint": "echo 'Linting not configured yet'",
+    "type-check": "tsc --noEmit",
+    "clean": "rm -rf dist",
+    "prepare": "yarn build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "pdf",
+    "text-extraction",
+    "cursor",
+    "ide",
+    "typescript",
+    "pdf-parser",
+    "document-processing"
+  ],
+  "author": {
+    "name": "Ilya Isaev (xxx87)",
+    "url": "https://github.com/your-username/pdf-to-text-mcp-server/contributors"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/pdf-to-text-mcp-server.git"
+  },
+  "homepage": "https://github.com/your-username/pdf-to-text-mcp-server#readme",
+  "bugs": {
+    "url": "https://github.com/your-username/pdf-to-text-mcp-server/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "yarn": ">=1.22.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.5.0",
+    "pdf-parse": "1.1.1",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
